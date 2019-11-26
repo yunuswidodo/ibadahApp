@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/islam_map"
+        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:title="Map"/>
+    <item
+        android:id="@+id/islam_time"
+        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:title="Time"/>
+    <item
+        android:id="@+id/islam_day"
+        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:title="day"/>
+
+    <item
+        android:id="@+id/islam_nav"
+        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:title="nav"/>
+</menu>
