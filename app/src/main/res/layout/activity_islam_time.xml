@@ -8,22 +8,117 @@
     tools:context=".IslamMapActivity"
     android:background="@color/colorPrimary">
 
-
     <RelativeLayout
-        android:layout_above="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:padding="60dp">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lokasi, tempat"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_lokasi_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Fajr"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_fajr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Shurooq"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_shurooq_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Dhuhr"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_dhuhr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Asr"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_asr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Maghrib"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_maghrib_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Isha"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_isha_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value" />
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_refresh"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:textSize="30sp"
-            android:id="@+id/activityTitle2"
-            android:textAlignment="center"/>
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_refresh_white_24dp" />
 
     </RelativeLayout>
+
 
     <RelativeLayout
         android:layout_width="match_parent"
