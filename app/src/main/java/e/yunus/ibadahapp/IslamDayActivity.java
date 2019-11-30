@@ -27,15 +27,32 @@ public class IslamDayActivity extends AppCompatActivity {
         Log.d(Tag, "onCreate: Started.");
         ListView mlistView = (ListView)findViewById(R.id.listView);
 
-        //Create the Person objects
-        Item item1 = new Item(R.drawable.img_islam,"islam","indah");
-        Item item2 = new Item(R.drawable.img_islam,"islam","indah");
-        Item item3 = new Item(R.drawable.img_islam,"islam","indah");
+        //Create the objects
+        Item item1 = new Item(R.drawable.img_islam,"Tahun Baru hijriah","1 Muharram");
+        Item item2 = new Item(R.drawable.img_islam,"Asyura","10 Muharam");
+        Item item3 = new Item(R.drawable.img_islam,"Maulid Nabi","12 Rabiul Awal");
+        Item item4 = new Item(R.drawable.img_islam,"Isra' mi'raj","27 rajab");
+        Item item5 = new Item(R.drawable.img_islam,"Bulan Ramadhan","1 Ramadhan");
+        Item item6 = new Item(R.drawable.img_islam,"Nuzulul Qur,an","17 Ramadhan");
+        Item item7 = new Item(R.drawable.img_islam,"Hari Raya Idhul Fitri","1 Syawal");
+        Item item8 = new Item(R.drawable.img_islam,"Wukuf","9 Dzulhijjah");
+        Item item9 = new Item(R.drawable.img_islam,"Hari Raya Idul Adha","10 Dzulhijjah");
+        Item item10 = new Item(R.drawable.img_islam,"Hari Tasyriq","12 Rabiul Awal");
+
+
 
         ArrayList<Item> itemList = new ArrayList<>();
         itemList.add(item1);
         itemList.add(item2);
         itemList.add(item3);
+        itemList.add(item4);
+        itemList.add(item5);
+        itemList.add(item6);
+        itemList.add(item7);
+        itemList.add(item8);
+        itemList.add(item9);
+        itemList.add(item10);
+
 
         ItemListAdapter adapter = new ItemListAdapter(this, R.layout.adapter_view_layout, itemList);
         mlistView.setAdapter(adapter);
