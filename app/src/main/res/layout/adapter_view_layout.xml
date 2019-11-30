@@ -22,15 +22,14 @@
         android:layout_weight="33.3">
 
         <TextView
-            android:gravity="center"
-            android:text="TextView2"
+
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:id="@+id/textView2"/>
 
         <TextView
-            android:gravity="center"
-            android:text="TextView3"
+
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:id="@+id/textView3"
