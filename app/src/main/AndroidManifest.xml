@@ -11,7 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProtestanDayActivity"></activity>
+        <activity android:name=".KonghucuDayActivity"></activity>
+        <activity android:name=".KonghucuMapActivity" />
+        <activity android:name=".KatolikDayActivity" />
+        <activity android:name=".KatolikMapActivity" />
+        <activity android:name=".BudhaDayActivity" />
+        <activity android:name=".BudhaMapActivity" />
+        <activity android:name=".HinduDayActivity" />
+        <activity android:name=".HinduMapActivity" />
+        <activity android:name=".ProtestanDayActivity" />
         <activity android:name=".ProtestanMapActivity" />
         <activity android:name=".DasboardFirst" />
         <activity android:name=".MainActivity">

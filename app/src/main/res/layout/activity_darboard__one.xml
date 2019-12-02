@@ -65,18 +65,22 @@
                     />
 
                 <ImageView
+                    android:id="@+id/hindu"
                     android:src="@drawable/img_hindu"
                     android:background="@android:color/white"
                     android:layout_marginTop="10dp"
                     android:layout_width="140dp"
-                    android:layout_height="120dp" />
+                    android:layout_height="120dp"
+                    android:onClick="hindu"/>
 
                 <ImageView
+                    android:id="@+id/budha"
                     android:src="@drawable/img_budha"
                     android:background="@android:color/white"
                     android:layout_marginTop="10dp"
                     android:layout_width="140dp"
-                    android:layout_height="120dp" />
+                    android:layout_height="120dp"
+                    android:onClick="budha"/>
             </LinearLayout>
 
             <LinearLayout
@@ -95,19 +99,23 @@
                     android:onClick="Protestan"/>
 
                 <ImageView
+                    android:id="@+id/katolik"
                     android:src="@drawable/img_kristenkatolik"
                     android:background="@android:color/white"
                     android:layout_marginTop="10dp"
                     android:layout_width="140dp"
-                    android:layout_height="120dp" />
+                    android:layout_height="120dp"
+                    android:onClick="katolik"/>
 
 
                 <ImageView
+                    android:id="@+id/konghucu"
                     android:src="@drawable/img_konghucu"
                     android:background="@android:color/white"
                     android:layout_marginTop="10dp"
                     android:layout_width="140dp"
-                    android:layout_height="120dp" />
+                    android:layout_height="120dp"
+                    android:onClick="konghucu"/>
 
             </LinearLayout>
         </LinearLayout>
