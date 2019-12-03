@@ -27,6 +27,7 @@ public class IslamDayActivity extends AppCompatActivity {
         Log.d(Tag, "onCreate: Started.");
         ListView mlistView = (ListView)findViewById(R.id.listView);
 
+
         //Create the objects
         Item item1 = new Item(R.drawable.img_islam,"Tahun Baru hijriah","1 Muharram");
         Item item2 = new Item(R.drawable.img_islam,"Asyura","10 Muharam");

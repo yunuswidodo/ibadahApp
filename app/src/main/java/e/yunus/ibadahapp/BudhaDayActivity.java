@@ -7,7 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class BudhaDayActivity extends AppCompatActivity {
 
@@ -15,8 +18,26 @@ public class BudhaDayActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_budha_day);
-        TextView title= (TextView) findViewById(R.id.activityTitle1);
-        title.setText("this is day budha");
+
+        ListView mlistView = (ListView)findViewById(R.id.listView);
+
+        //https://samaggi-phala.or.id/sangha-theravada-indonesia/hari-raya-agama-buddha-2014-s-d-2026-2/
+        //Create the objects
+        Item item1 = new Item(R.drawable.img_budha,"Hari Raya Waisak","7 mei");
+        Item item2 = new Item(R.drawable.img_budha,"Hari Raya Maghapuja","10 febuari");
+        Item item3 = new Item(R.drawable.img_budha,"Hari Raya Asadha","4 juli");
+        Item item4 = new Item(R.drawable.img_budha,"Hari Raya Khatina","17 oktober");
+
+
+        ArrayList<Item> itemList = new ArrayList<>();
+        itemList.add(item1);
+        itemList.add(item2);
+        itemList.add(item3);
+        itemList.add(item4);
+
+        ItemListAdapter adapter = new ItemListAdapter(this, R.layout.adapter_view_layout, itemList);
+        mlistView.setAdapter(adapter);
+
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.buttomNavView_Bar);
         Menu menu = bottomNavigationView.getMenu();
