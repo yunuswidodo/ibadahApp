@@ -9,6 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class ParserPlace {
+
+
     public List<HashMap<String, String>> parse(JSONObject jObject) {
 
         JSONArray jPlaces = null;
