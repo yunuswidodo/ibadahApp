@@ -40,7 +40,6 @@
 
     </RelativeLayout>
 
-<!--    ini yang buat eroor-->
     <fragment
         android:id="@+id/map"
         class="com.google.android.gms.maps.SupportMapFragment"

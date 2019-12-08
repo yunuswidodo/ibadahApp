@@ -45,7 +45,7 @@ public class ParserPlace {
 
         HashMap<String, String> place = new HashMap<String, String>();
         String placeName = "-NA-";
-        String vicinity = "-NA-";
+
         String latitude = "";
         String longitude = "";
 
@@ -56,15 +56,12 @@ public class ParserPlace {
             }
 
             // extract nama jalan
-            if (!jPlace.isNull("vicinity")) {
-                vicinity = jPlace.getString("vicinity");
-            }
+
 
             latitude = jPlace.getJSONObject("geometry").getJSONObject("location").getString("lat");
             longitude = jPlace.getJSONObject("geometry").getJSONObject("location").getString("lng");
 
             place.put("place_name", placeName);
-            place.put("vicinity", vicinity);
             place.put("lat", latitude);
             place.put("lng", longitude);
 
