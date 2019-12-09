@@ -45,4 +45,10 @@ public class DasboardFirst extends AppCompatActivity {
         Intent intentKonghucu = new Intent(DasboardFirst.this, KonghucuMapActivity.class);
         startActivity(intentKonghucu);
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(DasboardFirst.this, MainActivity.class);
+        startActivity(intent);
+    }
 }

@@ -30,6 +30,7 @@
             android:visibility="gone" />
 
         <Button
+            android:background="@color/colorAccent"
             android:id="@+id/btnCari"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -56,6 +57,7 @@
         android:layout_alignParentBottom="true">
 
      <android.support.design.widget.BottomNavigationView
+         android:backgroundTint="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/buttomNavView_Bar"

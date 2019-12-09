@@ -129,6 +129,7 @@
 
 
         <android.support.design.widget.BottomNavigationView
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/buttomNavView_Bar"

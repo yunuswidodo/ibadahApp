@@ -32,13 +32,14 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:id="@+id/bottomBar"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true">
 
 
         <android.support.design.widget.BottomNavigationView
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/buttomNavView_Bar"

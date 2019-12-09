@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DasboardFirst">
+    tools:context=".DasboardFirst"
+    android:background="@drawable/bg1">
 
     <ImageView
         android:background="#7987f4"
