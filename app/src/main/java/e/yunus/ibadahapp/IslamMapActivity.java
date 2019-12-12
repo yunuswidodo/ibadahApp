@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -25,6 +26,8 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -69,7 +72,7 @@ public class IslamMapActivity extends AppCompatActivity implements LocationListe
             public void onClick(View v) {
                 String sb = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?" + "location=" + mLatitude + "," + mLongitude +
                         "&radius=5000" +
-                        "&types=mosque" +
+                        "&name=masjid" +
                         "&sensor=true" +
                         "&key=" + getResources().getString(R.string.api_key_web);
 
@@ -234,6 +237,7 @@ public class IslamMapActivity extends AppCompatActivity implements LocationListe
 
             for (int i = 0; i < list.size(); i++) {
                 MarkerOptions markerOptions = new MarkerOptions();
+
                 HashMap<String, String> hmPlace = list.get(i);
 
                 double lat = Double.parseDouble(hmPlace.get("lat"));
@@ -247,6 +251,9 @@ public class IslamMapActivity extends AppCompatActivity implements LocationListe
                 markerOptions.position(latLng);
                 markerOptions.title(nama );
 
+                //untuk mengganti icon
+               // markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.img_islam));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.masjid));
                 mGoogleMap.addMarker(markerOptions);
             }
 
