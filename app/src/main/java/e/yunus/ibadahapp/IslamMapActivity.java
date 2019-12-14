@@ -1,11 +1,8 @@
 package e.yunus.ibadahapp;
 
 import android.Manifest;
-import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -26,7 +23,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -253,7 +249,7 @@ public class IslamMapActivity extends AppCompatActivity implements LocationListe
 
                 //untuk mengganti icon
                // markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.img_islam));
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.masjid));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_masjid));
                 mGoogleMap.addMarker(markerOptions);
             }
 

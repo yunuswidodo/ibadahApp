@@ -24,6 +24,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -234,7 +235,7 @@ public class ProtestanMapActivity extends AppCompatActivity implements LocationL
 
                 markerOptions.position(latLng);
                 markerOptions.title(nama);
-
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_kristen));
                 mGoogleMap.addMarker(markerOptions);
             }
 
