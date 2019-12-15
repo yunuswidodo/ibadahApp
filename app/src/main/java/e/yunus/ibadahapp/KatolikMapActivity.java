@@ -239,7 +239,7 @@ public class KatolikMapActivity extends AppCompatActivity implements LocationLis
                 markerOptions.position(latLng);
                 markerOptions.title(nama);
 
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_kristen));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_katolik));
                 mGoogleMap.addMarker(markerOptions);
             }
 

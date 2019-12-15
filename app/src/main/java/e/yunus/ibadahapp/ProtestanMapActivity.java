@@ -235,7 +235,7 @@ public class ProtestanMapActivity extends AppCompatActivity implements LocationL
 
                 markerOptions.position(latLng);
                 markerOptions.title(nama);
-                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_kristen));
+                markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_protestan));
                 mGoogleMap.addMarker(markerOptions);
             }
 
