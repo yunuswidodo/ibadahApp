@@ -11,7 +11,7 @@
         android:title="Time"/>
     <item
         android:id="@+id/islam_day"
-        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:icon="@drawable/nav_islam_date"
         android:title="day"/>
 
     <item
