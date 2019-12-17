@@ -18,7 +18,7 @@ public class IslamNavActivity extends AppCompatActivity {
         setContentView(R.layout.activity_islam_nav);
 
         TextView title= (TextView) findViewById(R.id.activityTitle4);
-        title.setText("this is four");
+        title.setText("ngapain nyari navigasi kan udah ada masjid lengkad dengan kompas kiblat!!");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.buttomNavView_Bar);
         //icon pindah
