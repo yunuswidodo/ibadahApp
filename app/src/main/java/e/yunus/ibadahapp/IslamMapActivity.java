@@ -68,7 +68,7 @@ public class IslamMapActivity extends AppCompatActivity implements LocationListe
             public void onClick(View v) {
                 String sb = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?" + "location=" + mLatitude + "," + mLongitude +
                         "&radius=5000" +
-                        "&name=masjid" +
+                        "&type=mosque" +
                         "&sensor=true" +
                         "&key=" + getResources().getString(R.string.api_key_web);
 
