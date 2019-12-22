@@ -7,15 +7,15 @@
         android:title="Map"/>
     <item
         android:id="@+id/islam_time"
-        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:icon="@drawable/nav_time"
         android:title="Time"/>
     <item
         android:id="@+id/islam_day"
-        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:icon="@drawable/nav_day"
         android:title="day"/>
 
     <item
         android:id="@+id/islam_nav"
-        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:icon="@drawable/nav_nav"
         android:title="nav"/>
 </menu>
