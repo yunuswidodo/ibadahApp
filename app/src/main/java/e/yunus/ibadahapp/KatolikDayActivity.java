@@ -24,16 +24,16 @@ public class KatolikDayActivity extends AppCompatActivity {
 
         //https://id.wikipedia.org/wiki/Hari_raya_wajib_(Katolik)
         //Create the objects
-        Item item1 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Santa Maria","1 januari");
-        Item item2 = new Item(R.drawable.img_kristenkatolik,"Epifani","6 januari");
-        Item item3 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Santo Yusuf","19 maret");
-        Item item4 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Kenaikan Tuhan","kamis dalam minggu paskah VI");
-        Item item5 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Tubuh & Darah Kristus","Kamis setelah Tritunggal");
-        Item item6 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Santo Petro & Paulus","19 juni");
-        Item item7 = new Item(R.drawable.img_kristenkatolik,"Hari Raya santa Maria keSurga","15 agustus");
-        Item item8 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Orang Kudus","1 november");
-        Item item9 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Maria Dikandung","8 Desember");
-        Item item10 = new Item(R.drawable.img_kristenkatolik,"Hari Raya Natal","25 desember");
+        Item item1 = new Item(R.drawable.date_katolik,"Hari Raya Santa Maria","1 januari");
+        Item item2 = new Item(R.drawable.date_katolik,"Epifani","6 januari");
+        Item item3 = new Item(R.drawable.date_katolik,"Hari Raya Santo Yusuf","19 maret");
+        Item item4 = new Item(R.drawable.date_katolik,"Hari Raya Kenaikan Tuhan","kamis dalam minggu paskah VI");
+        Item item5 = new Item(R.drawable.date_katolik,"Hari Raya Tubuh & Darah Kristus","Kamis setelah Tritunggal");
+        Item item6 = new Item(R.drawable.date_katolik,"Hari Raya Santo Petro & Paulus","19 juni");
+        Item item7 = new Item(R.drawable.date_katolik,"Hari Raya santa Maria keSurga","15 agustus");
+        Item item8 = new Item(R.drawable.date_katolik,"Hari Raya Orang Kudus","1 november");
+        Item item9 = new Item(R.drawable.date_katolik,"Hari Raya Maria Dikandung","8 Desember");
+        Item item10 = new Item(R.drawable.date_katolik,"Hari Raya Natal","25 desember");
 
 
 

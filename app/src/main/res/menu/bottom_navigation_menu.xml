@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/islam_map"
-        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:icon="@drawable/nav_map"
         android:title="Map"/>
     <item
         android:id="@+id/islam_time"
@@ -11,7 +11,7 @@
         android:title="Time"/>
     <item
         android:id="@+id/islam_day"
-        android:icon="@drawable/nav_islam_date"
+        android:icon="@drawable/ic_access_alarm_black_24dp"
         android:title="day"/>
 
     <item

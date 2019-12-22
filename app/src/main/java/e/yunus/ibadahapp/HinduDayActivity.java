@@ -26,13 +26,13 @@ public class HinduDayActivity extends AppCompatActivity {
         //https://www.balitoursclub.com/berita_499_Hari_Raya_Agama_Hindu_di_Bali.html
 
         //Create the objects
-        Item item1 = new Item(R.drawable.img_hindu,"Hari Raya Galungan","6 bulan sekali kalender Isaka");
-        Item item2 = new Item(R.drawable.img_hindu,"Hari Raya Kuningan","10 hari setelah hari galungan");
-        Item item3 = new Item(R.drawable.img_hindu,"Hari Raya Sawarati","6 bulan sekali");
-        Item item4 = new Item(R.drawable.img_hindu,"Hari Raya Siwarati","setahun sekali kalender saka");
-        Item item5 = new Item(R.drawable.img_hindu,"Hari Raya Pager Wesi","6 bulan sekali");
-        Item item6 = new Item(R.drawable.img_hindu,"Hari Raya Nyepi","1 tahun sekali kalender Isaka");
-        Item item7 = new Item(R.drawable.img_hindu,"Hari Raya Tilem","setiap tanggal 29 & 30");
+        Item item1 = new Item(R.drawable.date_hindu,"Hari Raya Galungan","6 bulan sekali kalender Isaka");
+        Item item2 = new Item(R.drawable.date_hindu,"Hari Raya Kuningan","10 hari setelah hari galungan");
+        Item item3 = new Item(R.drawable.date_hindu,"Hari Raya Sawarati","6 bulan sekali");
+        Item item4 = new Item(R.drawable.date_hindu,"Hari Raya Siwarati","setahun sekali kalender saka");
+        Item item5 = new Item(R.drawable.date_hindu,"Hari Raya Pager Wesi","6 bulan sekali");
+        Item item6 = new Item(R.drawable.date_hindu,"Hari Raya Nyepi","1 tahun sekali kalender Isaka");
+        Item item7 = new Item(R.drawable.date_hindu,"Hari Raya Tilem","setiap tanggal 29 & 30");
 
 
         ArrayList<Item> itemList = new ArrayList<>();

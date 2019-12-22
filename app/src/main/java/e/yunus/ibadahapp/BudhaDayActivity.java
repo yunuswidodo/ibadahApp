@@ -23,10 +23,10 @@ public class BudhaDayActivity extends AppCompatActivity {
 
         //https://samaggi-phala.or.id/sangha-theravada-indonesia/hari-raya-agama-buddha-2014-s-d-2026-2/
         //Create the objects
-        Item item1 = new Item(R.drawable.img_budha,"Hari Raya Waisak","7 mei");
-        Item item2 = new Item(R.drawable.img_budha,"Hari Raya Maghapuja","10 febuari");
-        Item item3 = new Item(R.drawable.img_budha,"Hari Raya Asadha","4 juli");
-        Item item4 = new Item(R.drawable.img_budha,"Hari Raya Khatina","17 oktober");
+        Item item1 = new Item(R.drawable.date_budha,"Hari Raya Waisak","7 mei");
+        Item item2 = new Item(R.drawable.date_budha,"Hari Raya Maghapuja","10 febuari");
+        Item item3 = new Item(R.drawable.date_budha,"Hari Raya Asadha","4 juli");
+        Item item4 = new Item(R.drawable.date_budha,"Hari Raya Khatina","17 oktober");
 
 
         ArrayList<Item> itemList = new ArrayList<>();

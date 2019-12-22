@@ -24,16 +24,16 @@ public class KonghucuDayActivity extends AppCompatActivity {
 
         //https://doripos.com/inilah-10-hari-besar-umat-kong-hu-chu
         //Create the objects
-        Item item1 = new Item(R.drawable.img_konghucu,"Tahun Baru Imlek","1 januari");
-        Item item2 = new Item(R.drawable.img_konghucu,"Malaikat Dapur keLangit","tanggal 24 bulan ke12 kalender imlek");
-        Item item3 = new Item(R.drawable.img_konghucu,"Sembahyang Arwah Leluhur","tanggal 29 bulan ke12 kalender Imlek.");
-        Item item4 = new Item(R.drawable.img_konghucu,"Sembayang kepada Tuhan YME"," tanggal 8 bulan ke1 kelender Imlek.");
-        Item item5 = new Item(R.drawable.img_konghucu,"Cap Go Meh","tanggal 15 bulan ke1 kalender imlek");
-        Item item6 = new Item(R.drawable.img_konghucu,"Cing Bing","bulan 3 setelah imlek");
-        Item item7 = new Item(R.drawable.img_konghucu,"Twan Yang","tanggal 5 bulan ke5 kelender imlek");
-        Item item8 = new Item(R.drawable.img_konghucu,"Sembayang Rebutan","tanggal 15 bulan ke7 kalender imlek");
-        Item item9 = new Item(R.drawable.img_konghucu,"Sembahyang Tiong Jiu","tanggal 15 bulan ke8 kalender imlek");
-        Item item10 = new Item(R.drawable.img_konghucu,"Tang Cik","tanggal 22 Desember Masehi");
+        Item item1 = new Item(R.drawable.date_konghucu,"Tahun Baru Imlek","1 januari");
+        Item item2 = new Item(R.drawable.date_konghucu,"Malaikat Dapur keLangit","tanggal 24 bulan ke12 kalender imlek");
+        Item item3 = new Item(R.drawable.date_konghucu,"Sembahyang Arwah Leluhur","tanggal 29 bulan ke12 kalender Imlek.");
+        Item item4 = new Item(R.drawable.date_konghucu,"Sembayang kepada Tuhan YME"," tanggal 8 bulan ke1 kelender Imlek.");
+        Item item5 = new Item(R.drawable.date_konghucu,"Cap Go Meh","tanggal 15 bulan ke1 kalender imlek");
+        Item item6 = new Item(R.drawable.date_konghucu,"Cing Bing","bulan 3 setelah imlek");
+        Item item7 = new Item(R.drawable.date_konghucu,"Twan Yang","tanggal 5 bulan ke5 kelender imlek");
+        Item item8 = new Item(R.drawable.date_konghucu,"Sembayang Rebutan","tanggal 15 bulan ke7 kalender imlek");
+        Item item9 = new Item(R.drawable.date_konghucu,"Sembahyang Tiong Jiu","tanggal 15 bulan ke8 kalender imlek");
+        Item item10 = new Item(R.drawable.date_konghucu,"Tang Cik","tanggal 22 Desember Masehi");
 
 
 

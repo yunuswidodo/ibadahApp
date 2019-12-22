@@ -24,10 +24,10 @@ public class ProtestanDayActivity extends AppCompatActivity {
 
         //ketik digoogle hari besar agama protestan
         //Create the objects
-        Item item1 = new Item(R.drawable.img_kristenprotestan,"Hari Raya Natal","25 desember");
-        Item item2 = new Item(R.drawable.img_kristenprotestan,"Hari Raya Epifani","6 januari");
-        Item item3 = new Item(R.drawable.img_kristenprotestan,"Hari Raya Kamis Putih","kamis terakir maret hingga minggu kedua april");
-        Item item4 = new Item(R.drawable.img_kristenprotestan,"Hari Raya Kematian Yesus","jumat akhir maret hingga minggu kedua akhir");
+        Item item1 = new Item(R.drawable.date_protestan,"Hari Raya Natal","25 desember");
+        Item item2 = new Item(R.drawable.date_protestan,"Hari Raya Epifani","6 januari");
+        Item item3 = new Item(R.drawable.date_protestan,"Hari Raya Kamis Putih","kamis terakir maret hingga minggu kedua april");
+        Item item4 = new Item(R.drawable.date_protestan,"Hari Raya Kematian Yesus","jumat akhir maret hingga minggu kedua akhir");
 
 
         ArrayList<Item> itemList = new ArrayList<>();

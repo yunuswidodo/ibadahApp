@@ -29,16 +29,16 @@ public class IslamDayActivity extends AppCompatActivity {
 
 
         //Create the objects
-        Item item1 = new Item(R.drawable.img_islam,"Tahun Baru hijriah","1 Muharram");
-        Item item2 = new Item(R.drawable.img_islam,"Asyura","10 Muharam");
-        Item item3 = new Item(R.drawable.img_islam,"Maulid Nabi","12 Rabiul Awal");
-        Item item4 = new Item(R.drawable.img_islam,"Isra' mi'raj","27 rajab");
-        Item item5 = new Item(R.drawable.img_islam,"Bulan Ramadhan","1 Ramadhan");
-        Item item6 = new Item(R.drawable.img_islam,"Nuzulul Qur,an","17 Ramadhan");
-        Item item7 = new Item(R.drawable.img_islam,"Hari Raya Idhul Fitri","1 Syawal");
-        Item item8 = new Item(R.drawable.img_islam,"Wukuf","9 Dzulhijjah");
-        Item item9 = new Item(R.drawable.img_islam,"Hari Raya Idul Adha","10 Dzulhijjah");
-        Item item10 = new Item(R.drawable.img_islam,"Hari Tasyriq","12 Rabiul Awal");
+        Item item1 = new Item(R.drawable.date_islam,"Tahun Baru hijriah","1 Muharram");
+        Item item2 = new Item(R.drawable.date_islam,"Asyura","10 Muharam");
+        Item item3 = new Item(R.drawable.date_islam,"Maulid Nabi","12 Rabiul Awal");
+        Item item4 = new Item(R.drawable.date_islam,"Isra' mi'raj","27 rajab");
+        Item item5 = new Item(R.drawable.date_islam,"Bulan Ramadhan","1 Ramadhan");
+        Item item6 = new Item(R.drawable.date_islam,"Nuzulul Qur,an","17 Ramadhan");
+        Item item7 = new Item(R.drawable.date_islam,"Hari Raya Idhul Fitri","1 Syawal");
+        Item item8 = new Item(R.drawable.date_islam,"Wukuf","9 Dzulhijjah");
+        Item item9 = new Item(R.drawable.date_islam,"Hari Raya Idul Adha","10 Dzulhijjah");
+        Item item10 = new Item(R.drawable.date_islam,"Hari Tasyriq","12 Rabiul Awal");
 
 
 
